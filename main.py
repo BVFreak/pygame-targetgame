@@ -10,6 +10,7 @@ player = pygame.Surface((32, 32))
 player.fill((255, 0, 255))
 
 crosshair = pygame.image.load("ASSETS/crosshair.png")
+pygame.mouse.set_visible = False
 
 bullet_x, bullet_y = 360, 240
 speed = 10
